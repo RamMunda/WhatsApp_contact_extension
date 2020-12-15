@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./popup.js"></script>
+    <style>
+        .container{
+            width: 400px;
+            border-radius: 7px;
+            background-color: white;
+            font-size: 16px;
+        }
+        #export{
+
+            background-color: white;
+            color: dodgerblue;
+            padding: 5px 10px;
+            border: 0.25px solid dodgerblue;
+            font-family: sans-serif;
+            border-radius: 5px;
+            transition: 1s;
+        }
+        #export:hover{
+            background-color: dodgerblue;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>To export the contacts, Press Export button</p>
+        <button id="export">Export</button>
+    </div>
+</body>
+</html>
